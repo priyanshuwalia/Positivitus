@@ -1,0 +1,80 @@
+
+
+/* Hero Section Container */
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hero Content */
+  .hero-content {
+
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-button:hover {
+    background-color: #333;
+  }
+  
+  /* Hero Illustration */
+  .hero-illustration {
+    padding-left: 50px;
+    margin-left: 50px;
+    margin: 20px 0;
+  }
+  
+  .illustration {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Client Logos */
+  .client-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .client-logos img {
+    width: 100px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .client-logos img:hover {
+    opacity: 1;
+  }
+  
