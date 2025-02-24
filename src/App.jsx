@@ -5,7 +5,7 @@ import { Services } from "./components/Services";
 import HeroSection from "./components/HeroSection";
 import CardContainer from "./CardContainer";
 import LoadingWave from "./components/LoadingWave";
-import ScrollProgress from "./components/ScrollProgress"; // Import the progress bar
+// import ScrollProgress from "./components/ScrollProgress"; // Import the progress bar
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -28,7 +28,7 @@ function App() {
         </div>
       ) : (
         <>
-          <ScrollProgress /> {/* Add progress bar at the top */}
+          {/* <ScrollProgress />  */}
           <Navbar />
           <HeroSection text="Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation." />
           <Services />
