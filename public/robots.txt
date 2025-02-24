@@ -1,0 +1,6 @@
+# Allow all search engine bots to crawl the entire site
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Allow: /public/
+Sitemap: https://www.yoursite.com/sitemap.xml

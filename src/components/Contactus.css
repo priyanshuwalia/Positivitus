@@ -1,0 +1,104 @@
+.contact-us-container {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .contact-us-header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us-header h1 {
+    font-size: 24px;
+    color: #29ab00; /* Green background color */
+  }
+  
+  .contact-us-header p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contact-us-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .contact-form {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .form-options {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-options label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-options input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  form textarea {
+    height: 180px;
+    resize: none;
+  }
+  
+  form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #333;
+  }
+  
+  .contact-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-image img {
+    max-width: 100%;
+    height: 380px;
+    border-radius: 8px;
+    margin-left: 200px;
+    padding-left: 200px;
+    
+  }
+  

@@ -1,28 +1,22 @@
-import React from 'react';
-import './Navbar.css'; // For styling
-
-export function Navbar() {
+const Navbar = () => {
   return (
-    <nav className="navbar">
-      {/* Logo */}
-      <div className="navbar-logo">
-        <img src="src/assets/Positivitus-logo.png" alt="Positivus Logo" className="logo-icon" />
-     
+    <nav className="bg-[#191A23] text-white py-4 px-6 md:px-16 flex justify-between items-center font-['Space_Grotesk']">
+      <h1 className="text-2xl font-bold">★ CourseHub</h1>
+      <div className="space-x-6 hidden md:flex">
+        {["Home", "Courses", "About", "Contact"].map((link, index) => (
+          <a
+            key={index}
+            href="#"
+            className="text-gray-300 hover:text-white transition duration-300"
+          >
+            {link}
+          </a>
+        ))}
       </div>
-
-      {/* Navigation Links */}
-      <ul className="navbar-links">
-        <li>About us</li>
-        <li>Services</li>
-        <li>Use Cases</li>
-        <li>Pricing</li>
-        <li>Blog</li>
-      </ul>
-
-      {/* Button */}
-      <button className="navbar-button">Request a quote</button>
+      <button className="bg-[#B9FF66] text-black px-4 py-2 rounded-md font-semibold">
+        Sign Up
+      </button>
     </nav>
   );
-}
-
+};
 export default Navbar;
