@@ -39,19 +39,19 @@ export function HeroSection({ text }) {
         {/* Right Illustration */}
         <div className="hero-illustration">
           <img
-            src="./src/assets/herosection.png"
+            src="/assets/herosection.png"
             alt="Digital Marketing Illustration"
             className="illustration"
           />
         </div>
       </div>
       <div className="client-logos">
-        <img src="./src/assets/amazon.png" alt="Amazon" />
-        <img src="./src/assets/dribble.png" alt="Dribbble" />
-        <img src="./src/assets/hubspot.png" alt="HubSpot" />
-        <img src="./src/assets/notion.png" alt="Notion" />
-        <img src="./src/assets/Netflix.png" alt="Netflix" />
-        <img src="./src/assets/zoom.png" alt="Zoom" />
+        <img src="/assets/amazon.png" alt="Amazon" />
+        <img src="/assets/dribble.png" alt="Dribbble" />
+        <img src="/assets/hubspot.png" alt="HubSpot" />
+        <img src="/assets/notion.png" alt="Notion" />
+        <img src="/assets/Netflix.png" alt="Netflix" />
+        <img src="/assets/zoom.png" alt="Zoom" />
       </div>
     </>
   );

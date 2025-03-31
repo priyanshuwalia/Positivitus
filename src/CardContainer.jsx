@@ -5,7 +5,7 @@ const CardContainer = () => {
   return (
     <div className="cards-container">
       <Card
-        image="./src/assets/illustration1.png"
+        image="/assets/dash.png"
         title="Search engine optimization"
         backgroundColor="#F3F3F3"
         textbackgroundColor={" #B9FF66"}
@@ -13,19 +13,19 @@ const CardContainer = () => {
       <Card
         backgroundColor="#B9FF66"
         title={"Pay-per-click ads"}
-        image={"./src/assets/illustration2.png"}
+        image={"/assets/arrow.png"}
         textbackgroundColor={"white"}
       />
       <Card
         backgroundColor="#191A23"
         title={"Social Media Marketing"}
-        image={"./src/assets/illustration3.png"}
+        image={"/assets/smily.png"}
         textbackgroundColor={"#F3F3F3"}
       />
       <Card
         backgroundColor="#F3F3F3"
         title={"Email Marketing"}
-        image={"./src/assets/illustration4.png"}
+        image={"/assets/illustration4.png"}
         textbackgroundColor={"#B9FF66"}
       />
     </div>
