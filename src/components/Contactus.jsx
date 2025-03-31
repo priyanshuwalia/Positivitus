@@ -66,9 +66,7 @@ const ContactUs = () => {
 
         {/* Right - Image or Placeholder */}
         <div className="hidden md:block flex-1">
-          <div className="w-full h-full bg-gray-300 rounded-lg flex items-center justify-center">
-            <img src="/assets/Maskgroup.png" alt="" />
-          </div>
+          <div className="w-full h-full bg-gray-300 rounded-lg flex items-center justify-center"></div>
         </div>
       </div>
     </div>
