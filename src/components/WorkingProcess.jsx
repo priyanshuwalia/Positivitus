@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import "./WorkingProcess.css";
 
 const WorkingProcess = () => {
-  const [expandedSection, setExpandedSection] = useState(1);
+  const [expandedSection, setExpandedSection] = useState(0);
 
   const processes = [
     {
