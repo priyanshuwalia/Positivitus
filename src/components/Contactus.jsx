@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <div
-      className="bg-gray-100 py-12 px-6 md:px-16 flex justify-center items-center min-h-screen"
+      className="bg-gray-100 py-12 px-6 md:px-16 flex justify-center items-center min-h-screen "
       id="contact-us-container"
     >
       <div className="max-w-4xl w-full bg-white shadow-xl rounded-2xl p-8 md:p-12 flex flex-col md:flex-row gap-8">
@@ -67,7 +67,7 @@ const ContactUs = () => {
         {/* Right - Image or Placeholder */}
         <div className="hidden md:block flex-1">
           <div className="w-full h-full bg-gray-300 rounded-lg flex items-center justify-center">
-            <span className="text-gray-500">📩 Contact Illustration</span>
+            <img src="/assets/Maskgroup.png" alt="" />
           </div>
         </div>
       </div>

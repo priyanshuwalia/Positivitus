@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <nav className="bg-[#191A23] text-white py-4 px-6 md:px-16 flex justify-between items-center font-['Space_Grotesk']">
-      <h1 className="text-2xl font-bold">★ CourseHub</h1>
+      <h1 className="text-2xl font-bold">★ Positivitus</h1>
       <div className="space-x-6 hidden md:flex">
         {["Home", "Courses", "About", "Contact"].map((link, index) => (
           <a
